@@ -24,9 +24,9 @@
 		AF53131B19D86A3C00CFD225 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 			};
-			buildConfigurationList = AF53131E19D86A3C00CFD225 /* Build configuration list for PBXProject "C-Starter-Project" */;
+			buildConfigurationList = AF53131E19D86A3C00CFD225 /* Build configuration list for PBXProject "C-Starter Project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -45,6 +45,7 @@
 		AF53131F19D86A3C00CFD225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -57,14 +58,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF53131E19D86A3C00CFD225 /* Build configuration list for PBXProject "C-Starter-Project" */ = {
+		AF53131E19D86A3C00CFD225 /* Build configuration list for PBXProject "C-Starter Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF53131F19D86A3C00CFD225 /* Debug */,
 				AF53132019D86A3C00CFD225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

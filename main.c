@@ -8,8 +8,18 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[])
-{
-    printf("I'm starting the iOS prep course.\n");
-    return 0;
-}
+int main() {
+    
+    for (int i = 1; i <= 100; i++) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            printf("fizzbuzz");
+        }
+        else if (i % 3 == 0) {
+            printf("fizz");
+        }
+        else if (i % 5 == 0) {
+            printf("buzz");
+        }
+        else {
+            printf("%i", i);
+        }}}
